@@ -1,0 +1,31 @@
+extends base.pug
+
+block scripts 
+  script(src='/static/index.js')
+
+block style 
+  style 
+    include ../static/style.css
+    include ../static/classInfo.css
+
+block content 
+  div.body
+    h1 Class Information 
+    div.con
+      div.cl 
+        h1 Class 1
+        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo ratione inventore odit.
+      div.cl 
+        h1 Class 2
+        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo ratione inventore odit.
+      div.cl 
+        h1 Class 3
+        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo ratione inventore odit.
+      div.cl 
+        h1 Class 4
+        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo ratione inventore odit.
+      div.cl 
+        h1 Class 5
+        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo ratione inventore odit.
+    
+    //- div.cl Class 6

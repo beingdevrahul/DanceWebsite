@@ -1,0 +1,59 @@
+//- base.pug
+
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+  style 
+    include ../static/style.css
+
+block content
+    //- nav#navbar.top
+    //-   ul#nav 
+    //-     div#logo
+    //-       img(src="/static/images/logo.png", alt="logo", srcset="",Class='logo')
+    //-       |RDA
+    //-     li #[a(href="/") Home]
+    //-     li #[a(href="/") Services]
+    //-     li #[a(href="/") About]
+    //-     li #[a(href="/") Contact Us]
+    //-     li #[a(href="/") Class Info]
+    section#introSection 
+      h1 Hey! Join Our Dance academy now..
+      p  Eat Sleep Dance Repeat 
+      button#btn join Now!
+
+    section#Ourmission 
+      h3 Our Missions    
+      div.cards 
+        h3 Dance perfection
+          div.card-box
+            div.card-img
+              img(src="/static/images/card1.png", alt="card1", srcset="")
+            div.card.content
+              p  The best dance academy of Delhi NCR!!
+
+      div.cards 
+        h3 Dance the way you like!
+          div.card-box
+            div.card-img
+              img(src="/static/images/card2.png", alt="card2", srcset="")
+            div.card.content
+              p  The best dance academy of Delhi NCR!!
+      div.cards 
+        h3 Expert teaching
+          div.card-box
+            div.card-img
+              img(src="/static/images/card3.png", alt="card3", srcset="")
+            div.card.content
+              p  The best dance academy of Delhi NCR!!
+    
+    section#sponsersSecrion 
+      h3 Our Sponsers
+        div#sponsers
+          img(src="/static/images/c1.png", alt="c1", srcset="",Class="spImage")
+          img(src="/static/images/c2.png", alt="c2", srcset="",Class="spImage")
+          img(src="/static/images/c3.png", alt="c3", srcset="",Class="spImage")
+          img(src="/static/images/c4.png", alt="c4", srcset="",Class="spImage")

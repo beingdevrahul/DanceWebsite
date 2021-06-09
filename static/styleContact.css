@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+.myInput{
+    width: 40%;
+    margin: 12px 0pc;
+    padding: 7px 3px;
+    outline: none;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 0.4rem
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#btn2{
+    padding: 7px 18px;
+    border-radius: 0.7rem;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+.container2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+    background: center / cover no-repeat url('/static/images/con2.jpg');
+    /* background-color: yellow;
+    border: 2px solid red; */
+    /* justify-content: center; */
+}
+
+#btn2:hover{
+    color: white;
+    padding: 7px 18px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    font-size: 1.5rem;
+    margin: 10px;
+}
